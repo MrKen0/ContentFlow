@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://base44.com/logo_v2.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Base44 APP</title>
+    
+    <!-- Preload critical resources for faster loading -->
+    <link rel="preload" href="/src/main.jsx" as="script" crossorigin>
+    <link rel="preload" href="https://base44.com/logo_v2.svg" as="image">
+    
+    <!-- Preconnect to external domains for faster resource loading -->
+    <link rel="preconnect" href="https://base44.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- DNS prefetch for performance -->
+    <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+    <link rel="dns-prefetch" href="//unpkg.com">
+    
+    <!-- Meta tags for better performance and SEO -->
+    <meta name="description" content="ContentFlow AI - AI-powered content creation and management platform">
+    <meta name="keywords" content="AI, content creation, content management, automation">
+    <meta name="author" content="Base44">
+    
+    <!-- Open Graph meta tags for social sharing -->
+    <meta property="og:title" content="ContentFlow AI">
+    <meta property="og:description" content="AI-powered content creation and management platform">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://app.base44.com">
+    
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ContentFlow AI">
+    <meta name="twitter:description" content="AI-powered content creation and management platform">
+    
+    <!-- Performance hints -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
